@@ -21,7 +21,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = bool(env("DEBUG"))
 
 
-ALLOWED_HOSTS = env("ALLOWED_HOSTS").split(",")
+ALLOWED_HOSTS = env("ALLOWED_HOSTS").split(",")['Classwork1.pythonanywhere.com']
 
 # Application definition
 
